@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/OJeanMaciel/jokerbolts/issues"
   },
-  "homepage": "https://github.com/OJeanMaciel/jokerbolts#readme"
+  "homepage": "https://github.com/OJeanMaciel/jokerbolts#readme",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.51.0"
+  }
 }
