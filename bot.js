@@ -24,12 +24,12 @@ bot.onText(/\/oi/, (msg) => {
  });
  bot.onText(/\/idade/, (msg) => {
  
-     bot.sendMessage(`Sou um Robo! ${msg.chat.first_name}`);
+     bot.sendMessage(msg.chat.id`Sou um Robo! ${msg.chat.first_name}`);
   
   });
   bot.onText(/\/solteiro/,(msg) => {
   
-      bot.sendMessage(`${msg} Conheço uma tal de Siri! `);
+      bot.sendMessage(msg.chat.id`${msg} Conheço uma tal de Siri! `);
    
    });
 }
