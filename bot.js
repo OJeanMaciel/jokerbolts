@@ -7,6 +7,8 @@ module.exports = function()
 const token = '1667510046:AAEczHA_CxpwH8zcxJECHjjHhXmxYK_3OO4';
 // Create a bot that uses 'polling' to fetch new updates
 const bot = new TelegramBot(token, {polling: true});
+
+bot.setMyCommands();
 // Matches "/echo [whatever]"
 bot.onText(/\/echo (.+)/, (msg, match) => {
   // 'msg' is the received Message from Telegram
