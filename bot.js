@@ -32,4 +32,9 @@ bot.onText(/\/oi/, (msg) => {
       bot.sendMessage(msg.chat.id`${msg} Conheço uma tal de Siri! `);
    
    });
+   bot.onText(/\/tudo/, (msg) => {
+   
+       bot.sendMessage(msg.chat.id,`Tudo bem ${msg.chat.first_name}`);
+    
+    });
 }
