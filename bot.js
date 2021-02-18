@@ -22,19 +22,19 @@ bot.onText(/\/oi/, (msg) => {
     bot.sendMessage(msg.chat.id,`Olá ${msg.chat.first_name}`);
  
  });
- bot.onText(/\/idade/, (msg) => {
+ bot.onText(/\/tudo/, (msg) => {
  
-     bot.sendMessage(msg.chat.id`Sou um Robo! ${msg.chat.first_name}`);
+     bot.sendMessage(msg.chat.id,`Tudo bem ${msg.chat.first_name}`);
   
   });
-  bot.onText(/\/solteiro/,(msg) => {
+  bot.onText(/\/idade/, (msg) => {
   
-      bot.sendMessage(msg.chat.id`${msg} Conheço uma tal de Siri! `);
+      bot.sendMessage(msg.chat.id,`Sou um robo ${msg.chat.first_name}`);
    
    });
-   bot.onText(/\/tudo/, (msg) => {
+   bot.onText(/\/solteiro/, (msg) => {
    
-       bot.sendMessage(msg.chat.id,`Tudo bem ${msg.chat.first_name}`);
+       bot.sendMessage(msg.chat.id,`Coneço uma tal de Siri! ${msg.chat.first_name}`);
     
     });
 }
