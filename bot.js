@@ -22,4 +22,9 @@ bot.onText(/\/oi/, (msg) => {
     bot.sendMessage(msg.chat.id,`Olá ${msg.chat.first_name}`);
  
  });
+ bot.onText(/\/idade/,(msg) => {
+ 
+     bot.sendMessage(`Sou um Robo! ${msg.chat.first_name}`);
+  
+  });
 }
