@@ -24,17 +24,22 @@ bot.onText(/\/oi/, (msg) => {
  });
  bot.onText(/\/tudo/, (msg) => {
  
-     bot.sendMessage(msg.chat.id,`Tudo bem ${msg.chat.first_name}`);
+     bot.sendMessage(msg.chat.id,`Tudo bem, e com você? ${msg.chat.first_name}`);
   
   });
   bot.onText(/\/idade/, (msg) => {
   
-      bot.sendMessage(msg.chat.id,`Sou um robo ${msg.chat.first_name}`);
+      bot.sendMessage(msg.chat.id,`Sou um robo! ${msg.chat.first_name}`);
    
    });
    bot.onText(/\/solteiro/, (msg) => {
    
-       bot.sendMessage(msg.chat.id,`Coneço uma tal de Siri! ${msg.chat.first_name}`);
+       bot.sendMessage(msg.chat.id,`Conheço uma tal de Siri! ${msg.chat.first_name}`);
     
     });
+    bot.onText(/\/jogo/, (msg) => {
+    
+        bot.sendMessage(msg.chat.id,`Jogo Lol! ${msg.chat.first_name}`);
+     
+     });
 }
