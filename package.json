@@ -16,6 +16,7 @@
   },
   "homepage": "https://github.com/OJeanMaciel/jokerbolts#readme",
   "dependencies": {
+    "heroku": "^7.47.12",
     "node-telegram-bot-api": "^0.51.0"
   },
   "devDependencies": {},
