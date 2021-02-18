@@ -1,7 +1,6 @@
 {
-  "name": "c",
+  "name": "index.js",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -18,5 +17,7 @@
   "homepage": "https://github.com/OJeanMaciel/jokerbolts#readme",
   "dependencies": {
     "node-telegram-bot-api": "^0.51.0"
-  }
+  },
+  "devDependencies": {},
+  "description": ""
 }
